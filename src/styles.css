@@ -1,26 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Mukta:wght@300&family=PT+Sans:wght@700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: var(--nav-company-name-color);
+  
 }
 
 :root {
     --parent-background-color: #1b2531;
     --link-hover-color: #333d4e;
-    --header-background: url('/assets/page-header.png'), linear-gradient(90deg, rgb(41, 134, 206), rgb(82, 69, 133));
+    --header-background: url('./assets/page-header.png'), linear-gradient(90deg, rgb(41, 134, 206), rgb(82, 69, 133));
     --home-background-tree: url('/assets/home-background-image.svg');
     --page-nav-background-color: #273143;
     --nav-company-name-background-color: #1d5e90;
     --nav-company-name-color: white;
     --all-page-text-color: rgb(233, 232, 232);
-    --page-div-background-color: #293143
+    --page-div-background-color: #293443;
+    --inbox-image : url('./assets/home-inbox.svg')
 }
 
-html{
+html {
     background-color: var(--parent-background-color);
 }
 
@@ -35,4 +39,12 @@ html{
     padding-top: 7vh;
     padding-left: 7vw;
     padding-right: 2vw;
+}
+
+.parent-container-multi-pages {
+    height: 100vh;
+    width: 65%;
+    display: flex;
+    padding: 0;
+    margin: 2vh;
 }

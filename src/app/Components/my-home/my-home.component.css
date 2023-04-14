@@ -1,5 +1,39 @@
-.parent-container{
-    height: 100vh;
+.left-quick-access {
+    height: 100%;
+    width: 35%;
+
+}
+
+.right-post {
+    height: 100%;
     width: 65%;
+
+}
+
+.box {
+    width: 100%;
+    height: 15vh;
     background-color: var(--page-div-background-color);
+    margin-top: 2rem;
+    border: 1px solid rgba(141, 141, 141, 0.295);
+}
+
+.quick-access-heading {
+    font-family: 'DynaPuff', cursive;
+    letter-spacing: 2px;
+}
+
+.inbox {
+    /* background-image:var(--inbox-image); */
+    background-image: var(--inbox-image);
+    background-position: 10% 100%;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+
+.holiday {
+    background-image: url('/assets/img-celebration.svg');
+    background-size: cover;
+    background-position: center;
+
 }
