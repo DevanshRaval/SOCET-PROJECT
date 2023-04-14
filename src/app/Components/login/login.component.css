@@ -1,0 +1,93 @@
+.login-container {
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .form-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/login-wallpaper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+ }
+
+ #login-image-crop {
+    width: 70%;
+    display: none;
+    position: absolute;
+    height: 150%;
+    border-radius: 50%;
+    left: -400px;
+    top: -100px;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    opacity: 0.2;
+ }
+
+ #login-form {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 100px;
+    height: 90%;
+    width: 25%;
+ }
+
+ #login-form input,
+ #login-form select,
+ #login-form button {
+    width: 100%;
+    height: 3rem;
+    color: black;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+ }
+
+ #login-form button {
+    background-color: rgb(0, 72, 167);
+    border: none;
+    font-size: large;
+    color: white;
+    letter-spacing: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #login-form button:hover {
+    background-color: rgb(3, 79, 194);
+ }
+
+ .form-top-image {
+    height: 55%;
+    background-image: url('/assets/login-wallpaper-crop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+
+ }
+
+ .form-bottom-div {
+    height: 45%;
+    margin: 3rem;
+ }
