@@ -1,5 +1,5 @@
 .parent-container{
     height: 100vh;
     width: 65%;
-    background-color: red;
+    background-color: var(--page-div-background-color);
 }
