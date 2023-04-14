@@ -1,1 +1,35 @@
-<p>home works!</p>
+<div class="parent-container">
+    <div class="home-page-container">
+        <div class="page-header"></div>
+        <div class="page-nav">
+            <div class="nav-company-name">
+                LOGO
+            </div>
+            <div class="nav-link-container">
+                <ul>
+                    <li><a routerLink="my-home" routerLinkActive="active-link">
+                            <div class="link-icon-name"><i class="bi bi-house"></i>
+                                <p>HOME</p>
+                            </div>
+                        </a></li>
+                    <li><a routerLink="me" routerLinkActive="active-link">
+                            <div class="link-icon-name"><i class="bi bi-person"></i>
+                                <p>ME</p>
+                            </div>
+                        </a></li>
+                    <li><a routerLink="my-team" routerLinkActive="active-link">
+                            <div class="link-icon-name"><i class="bi bi-people"></i>
+                                <p>MY TEAM</p>
+                            </div>
+                        </a></li>
+                    <li><a routerLink="org" routerLinkActive="active-link">
+                            <div class="link-icon-name"><i class="bi bi-buildings"></i>
+                                <p>ORG</p>
+                            </div>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
