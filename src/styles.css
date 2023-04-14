@@ -17,4 +17,22 @@
     --nav-company-name-background-color: #1d5e90;
     --nav-company-name-color: white;
     --all-page-text-color: rgb(233, 232, 232);
+    --page-div-background-color : #273143
+}
+
+html{
+    background-color: var(--parent-background-color);
+}
+
+.parent-container {
+    height: auto;
+    width: 100%;
+    background-color: var(--parent-background-color);
+    background-image: var(--home-background-tree);
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-top: 7vh;
+    padding-left: 7vw;
+    padding-right: 2vw;
 }

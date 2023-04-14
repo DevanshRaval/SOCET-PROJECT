@@ -14,6 +14,7 @@ const routes: Routes = [
   {path : 'my-team', component : MyTeamComponent},
   {path : 'org', component : OrgComponent},
   {path : 'my-home', component : MyHomeComponent},
+  
 ];
 
 @NgModule({
