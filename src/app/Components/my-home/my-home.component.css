@@ -1,13 +1,11 @@
 .left-quick-access {
     height: 100%;
-    width: 35%;
-
+    width: 25%;
 }
 
 .right-post {
     height: 100%;
     width: 65%;
-
 }
 
 .box {
@@ -35,5 +33,9 @@
     background-image: url('/assets/img-celebration.svg');
     background-size: cover;
     background-position: center;
+}
 
+.parent-container {
+    width: 100%;
+    background-image: var(--home-background-tree);
 }

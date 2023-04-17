@@ -8,7 +8,6 @@
     margin: 0;
     box-sizing: border-box;
     color: var(--nav-company-name-color);
-  
 }
 
 :root {
@@ -21,7 +20,8 @@
     --nav-company-name-color: white;
     --all-page-text-color: rgb(233, 232, 232);
     --page-div-background-color: #293443;
-    --inbox-image : url('./assets/home-inbox.svg')
+    --inbox-image: url('./assets/home-inbox.svg')
+ 
 }
 
 html {
@@ -32,7 +32,7 @@ html {
     height: auto;
     width: 100%;
     background-color: var(--parent-background-color);
-    background-image: var(--home-background-tree);
+   
     background-attachment: fixed;
     background-position: right bottom;
     background-repeat: no-repeat;

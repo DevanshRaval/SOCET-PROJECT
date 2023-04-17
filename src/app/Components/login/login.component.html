@@ -1,17 +1,17 @@
 <div class="login-container">
     <div class="form-container"><!--left container-->
         <img src="assets/login-wallpaper-design-img.png" alt="login-image-crop" id="login-image-crop">
-        <form id="login-form">
+        <form id="login-form" [formGroup]="loginForm">
 
             <div class="form-top-image"></div>
             <div class="form-bottom-div">
-                <select name="person" id="select-person">
+                <select name="person" id="select-person" formControlName="hrEmpSelection">
                     <option value="hr">{{"hr" | uppercase}}</option>
                     <option value="employee">{{"employee" | uppercase}}</option>
                 </select>
-                <input type="text" name="name">
-                <input type="password" name="password">
-                <button (click)="submit()">Submit</button>
+                <input type="text" name="name" formControlName="name">
+                <input type="password" name="password" formControlName="password">
+                <button (click)="submit()" [disabled]="loginForm.invalid">Submit</button>
             </div>
 
         </form>
