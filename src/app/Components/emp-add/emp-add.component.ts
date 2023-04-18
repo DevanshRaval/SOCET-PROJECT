@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup , FormControl , Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-emp-add',
@@ -11,5 +12,9 @@ export class EmpAddComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  addEmp = new FormGroup({
+    
+  });
 
 }
