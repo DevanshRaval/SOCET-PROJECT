@@ -1,5 +1,117 @@
-.parent-container{
-    background-color: red;
-    height: 100vh;
+.parent-container {
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    /* background-color: skyblue; */
+    padding: 0;
+    margin: 0;
+
+}
+
+.summary-div {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.summary-top {
+    height: 45%;
     width: 100%;
 }
+
+.onleave-today {
+    height: 100%;
+    width: 52%;
+    background-color: var(--page-div-background-color);
+    border: var(--div-border);
+    display: flex;
+    flex-direction: column;
+}
+
+div.summary-bottom {
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+
+.ontime {
+    height: 100%;
+    width: 25%;
+    background-color: var(--page-div-background-color);
+    border: var(--div-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.late {
+    height: 100%;
+    width: 25%;
+    background-color: var(--page-div-background-color);
+    margin-left: 2%;
+    border: var(--div-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onleave-today-heading ,  .ontime-heading,  .late-heading{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.onleave-today-person  , .ontime-emp , .late-emp{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.onleave-today-box {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(219, 200, 200);
+    margin-left: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+}
+
+.ontime-inner{
+    height: 70%;
+    width: 90%;
+    border-left: 3px solid rgb(28, 212, 245);
+    
+}
+
+.late-inner{
+    height: 70%;
+    width: 90%;
+    border-left: 3px solid rgb(218, 61, 250);
+}
+
+.ontime-emp , .late-emp{
+    font-size: xx-large;
+    padding-left: 2rem;
+}
+
+.person1{background-color: rgb(105, 86, 202);}
+.person2{background-color: rgb(117, 209, 197)}
+.person3{background-color: rgb(206, 111, 174)}
+.person4{background-color: rgb(153, 226, 124)}
+.person5{background-color: orange}
+.person6{background-color: rgb(105, 86, 202);}
+.person7{background-color: rgb(66, 224, 177)}

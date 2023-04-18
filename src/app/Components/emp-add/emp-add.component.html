@@ -1,1 +1,83 @@
-<p>emp-add works!</p>
+<div class="parent-container">
+    <div class="add-heading">
+        <p>{{"add employee" | uppercase}}</p>
+    </div>
+    <div class="add-form">
+        <form>
+            <div class="form-flex">
+                <div class="first-name form-element">
+                    <label for="fname">First Name : </label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter First Name">
+                </div>
+                <div class="middle-name form-element">
+                    <label for="mname">Middle Name : </label>
+                    <input type="text" name="mname" id="mname" placeholder="Enter Middle Name">
+                </div>
+                <div class="last-name form-element">
+                    <label for="lname">Last Name : </label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
+                </div>
+                <div class="phone form-element">
+                    <label for="phone">Phone : </label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+                </div>
+                <div class="email form-element">
+                    <label for="email">Email : </label>
+                    <input type="text" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="gender form-element">
+                    <div class="radio-label">
+                        <label>Gender</label>
+                    </div>
+                    <div class="radio-div">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="male" id="male">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="female" id="female">
+                    </div>
+                </div>
+                <div class="department form-element">
+                    <label for="department">Department : </label>
+                    <input type="text" name="department" id="department" placeholder="Enter Department">
+                </div>
+                <div class="position form-element">
+                    <label for="position">Position : </label>
+                    <input type="text" name="position" id="position" placeholder="Enter Position">
+                </div>
+                <div class="PAN form-element">
+                    <label for="PAN">PAN Number: </label>
+                    <input type="text" name="PAN" id="PAN" placeholder="Enter PAN Number">
+                </div>
+                <div class="aadhar form-element">
+                    <label for="aadhar">Aadhar Number : </label>
+                    <input type="text" name="aadhar" id="aadhar" placeholder="Enter Aadhar Number">
+                </div>
+                <div class="company-location form-element">
+                    <label for="company-location">company-location : </label>
+                    <select name="company-location" id="company-location">
+                        <option value="" selected disabled>Select Location</option>
+                        <option value="ahmedabad">Ahmedabad</option>
+                        <option value="pune">Pune</option>
+                    </select>
+                </div>
+                <div class="DOB form-element">
+                    <label for="DOB">Date Of Birth : </label>
+                    <input type="date" name="DOB" id="DOB">
+                </div>
+                <div class="joining-date form-element">
+                    <label for="joining-date">Date of Joining : </label>
+                    <input type="date" name="joining-date" id="joining-date">
+                </div>
+
+                <div class="emp-id form-element">
+                    <label for="emp-id">Employee ID : </label>
+                    <input type="text" name="emp-id" id="emp-id" value="189" disabled>
+                </div>
+
+            </div>
+            <div class="add-button form-element">
+                <button>Add</button>
+            </div>
+        </form>
+    </div>
+</div>

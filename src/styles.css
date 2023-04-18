@@ -1,25 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Mukta:wght@300&family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@00&family=Mukta:wght@300&family=PT+Sans:wght@700&display=swap');
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: var(--nav-company-name-color);
+    font-family: sans-serif;
 }
 
 :root {
     --parent-background-color: #1b2531;
-    --link-hover-color: #333d4e;
+    --link-hover-color: rgb(60, 70, 92);
     --header-background: url('./assets/page-header.png'), linear-gradient(90deg, rgb(41, 134, 206), rgb(82, 69, 133));
     --home-background-tree: url('/assets/home-background-image.svg');
     --page-nav-background-color: #273143;
     --nav-company-name-background-color: #1d5e90;
-    --nav-company-name-color: white;
+    --nav-company-name-color: rgb(223, 223, 223);
     --all-page-text-color: rgb(233, 232, 232);
     --page-div-background-color: #293443;
-    --inbox-image: url('./assets/home-inbox.svg')
- 
+    --inbox-image: url('./assets/home-inbox.svg');
+    --manage-emp-heading: linear-gradient(90deg, #334b6d, #304158);
+    --org-text: black;
+    --button-bg-color: rgb(34, 103, 168);
+    --div-border: 1px solid rgba(141, 141, 141, 0.295);
+    --dynaPuff: 'DynaPuff', cursive;
 }
 
 html {
@@ -30,7 +36,7 @@ html {
     height: auto;
     width: 100%;
     background-color: var(--parent-background-color);
-   
+
     background-attachment: fixed;
     background-position: right bottom;
     background-repeat: no-repeat;

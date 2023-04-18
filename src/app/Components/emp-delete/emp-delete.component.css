@@ -1,0 +1,35 @@
+.parent-container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--page-div-background-color);
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.delete-heading{
+    background-image: var(--manage-emp-heading);
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    word-spacing: 1rem;
+    font-size: x-large;
+}
+
+.form-flex{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.form-flex input{
+    margin-left: 2rem;
+    height: 30%;
+    padding-left: 1rem;
+    width: 30%;
+}

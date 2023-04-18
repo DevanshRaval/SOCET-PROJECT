@@ -1,15 +1,16 @@
-.parent-container{
+.parent-container {
     padding: 0;
     margin: 0;
     height: 90vh;
     width: 100%;
 }
-.manage-emp-nav{
+
+.manage-emp-nav {
     height: 6%;
     width: 100%;
 }
 
-.manage-emp-nav ul{
+.manage-emp-nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -17,7 +18,7 @@
     height: 100%;
 }
 
-.manage-emp-nav ul li a{
+.manage-emp-nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +30,15 @@
     padding: 0px 5vw;
 }
 
-.manage-emp-nav ul li a:hover{
+.manage-emp-nav ul li a:hover {
     background-color: var(--link-hover-color);
 }
 
-.manage-emp-content{
+.manage-emp-content {
     height: 94%;
     padding-top: 10vh;
+}
+
+.active-link {
+    background-color: var(--link-hover-color) !important;
 }

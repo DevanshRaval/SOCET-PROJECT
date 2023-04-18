@@ -69,3 +69,8 @@ div.link-icon-name{
     font-weight: 100;
 }
  
+a .link-icon-name p{
+    font-size: small;
+    margin-top: 0.5rem;
+}
+ 

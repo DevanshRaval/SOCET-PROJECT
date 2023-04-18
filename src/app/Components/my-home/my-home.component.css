@@ -13,11 +13,11 @@
     height: 15vh;
     background-color: var(--page-div-background-color);
     margin-top: 2rem;
-    border: 1px solid rgba(141, 141, 141, 0.295);
+    border: var(--div-border);
 }
 
 .quick-access-heading {
-    font-family: 'DynaPuff', cursive;
+    font-family: var(--dynaPuff);
     letter-spacing: 2px;
 }
 

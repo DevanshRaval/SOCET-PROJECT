@@ -1,0 +1,86 @@
+.parent-container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--page-div-background-color);
+    min-height: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.edit-heading{
+    background-image: var(--manage-emp-heading);
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: x-large;
+    word-spacing: 1rem; 
+}
+
+
+.edit-form {
+    height: 100%;
+    padding: 2rem;
+}
+
+.form-flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-flex .form-element {
+    width: 50%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-flex .form-element input:not(input[type=radio]),
+.form-flex .form-element select,
+.form-flex .form-element option {
+    width: 70%;
+    height: 4vh;
+    padding-left: 1rem;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.form-flex .form-element input,
+.form-flex .form-element select {
+    margin-top: 1rem;
+}
+
+.gender {
+    display: block !important;
+}
+
+.radio-div input,
+.radio-div label:not(label[for=male]) {
+    margin-left: 2rem;
+}
+
+.edit-button {
+    width: 100%;
+    height: 5vh;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-button button {
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    letter-spacing: 0.2rem;
+    background-color: var(--button-bg-color)    
+}

@@ -43,6 +43,7 @@ const routes: Routes = [
         {
           path: 'manage-emp', component: ManageEmpComponent,
           children: [
+            { path: '', component: EmpAddComponent },
             { path: 'emp-add', component: EmpAddComponent },
             { path: 'emp-delete', component: EmpDeleteComponent },
             { path: 'emp-edit', component: EmpEditComponent },
