@@ -162,9 +162,14 @@ div.summary-bottom {
 .person {
     border: var(--div-border);
     background-color: var(--page-div-background-color);
-    height: 20vh;
-    width: 100%;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 22vw;
+    height: 24vh;
+    transition: all 0.3s;
+    box-shadow: none;
+    padding: 1rem;
 }
 
 .peer-heading{
@@ -176,16 +181,6 @@ div.summary-bottom {
     font-size: xx-large;
     padding: 2rem;
     font-family: var(--dynaPuff);
-}
-
-.person{
-    display: flex;
-    flex-direction: row;
-    width: 22vw;
-    height: 24vh;
-    transition: all 0.3s;
-    box-shadow: none;
-    padding: 1rem;
 }
 
 .person:hover{
