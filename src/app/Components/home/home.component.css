@@ -65,11 +65,29 @@ div.link-icon-name{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 0.8rem!important;
     font-weight: 100;
 }
  
 
-.router-div{
- 
+.search{
+    position: absolute;
+    width: 20vw;
+    left: 7vw;
+    top: 1vh;
+    height: 1.5rem;
+}
+
+.search input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    padding-left: 1rem;
+
+}
+
+.nav-link-container ul li a p{
+    font-size: small;
+    margin-top: 0.8rem;
 }
