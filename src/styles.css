@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@00&family=Mukta:wght@300&family=PT+Sans:wght@700&display=swap');
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=DynaPuff:wght@500&family=Mukta:wght@300&family=PT+Sans:wght@700&display=swap');
 
 * {
     padding: 0;
@@ -8,6 +9,7 @@
     box-sizing: border-box;
     color: var(--nav-company-name-color);
     font-family: sans-serif;
+    font-size: 1rem;
 }
 
 :root {

@@ -5,6 +5,8 @@
     /* background-color: skyblue; */
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -58,7 +60,9 @@ div.summary-bottom {
     align-items: center;
 }
 
-.onleave-today-heading ,  .ontime-heading,  .late-heading{
+.onleave-today-heading,
+.ontime-heading,
+.late-heading {
     height: 40%;
     width: 100%;
     display: flex;
@@ -68,7 +72,9 @@ div.summary-bottom {
     letter-spacing: 2px;
 }
 
-.onleave-today-person  , .ontime-emp , .late-emp{
+.onleave-today-person,
+.ontime-emp,
+.late-emp {
     height: 60%;
     width: 100%;
     display: flex;
@@ -90,28 +96,130 @@ div.summary-bottom {
     font-weight: 500;
 }
 
-.ontime-inner{
+.ontime-inner {
     height: 70%;
     width: 90%;
     border-left: 3px solid rgb(28, 212, 245);
-    
+
 }
 
-.late-inner{
+.late-inner {
     height: 70%;
     width: 90%;
     border-left: 3px solid rgb(218, 61, 250);
 }
 
-.ontime-emp , .late-emp{
+.ontime-emp,
+.late-emp {
     font-size: xx-large;
     padding-left: 2rem;
 }
 
-.person1{background-color: rgb(137, 125, 194);}
-.person2{background-color: rgb(173, 250, 240)}
-.person3{background-color: rgb(168, 115, 151)}
-.person4{background-color: rgb(180, 230, 161)}
-.person5{background-color: rgb(197, 168, 114)}
-.person6{background-color: rgb(136, 124, 197);}
-.person7{background-color: rgb(165, 245, 222)}
+.person1 {
+    background-color: rgb(137, 125, 194);
+}
+
+.person2 {
+    background-color: rgb(173, 250, 240);
+}
+
+.person3 {
+    background-color: rgb(168, 115, 151);
+}
+
+.person4 {
+    background-color: rgb(180, 230, 161);
+}
+
+.person5 {
+    background-color: rgb(197, 168, 114);
+}
+
+.person6 {
+    background-color: rgb(136, 124, 197);
+}
+
+.person7 {
+    background-color: rgb(165, 245, 222);
+}
+
+.time-timeoff-cal-container {
+    margin-top: 2rem;
+    height: 52rem;
+    width: 100%;
+}
+
+.team-member-container {
+    min-height: 20vh;
+    height: auto;
+    width: 100%;
+    display: grid;
+    gap: 50px 20px;
+    grid-template-columns: auto auto auto auto;
+    }
+
+.person {
+    border: var(--div-border);
+    background-color: var(--page-div-background-color);
+    height: 20vh;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.peer-heading{
+    height: 5vh;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: xx-large;
+    border-top: 1px solid rgba(141, 141, 141, 0.459);
+    padding: 3rem;
+    font-family: var(--dynaPuff);
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    width: 21vw;
+    height: 100%;
+}
+
+.profile-circle-container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.person-details-container{
+    width: 70%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-circle{
+    width: 70%;
+    background-color:   rgb(118, 156, 172);
+    height: 10vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 900;
+    text-shadow: 1px 0px 1px rgb(150, 149, 149),-1px 0px 1px rgb(150, 149, 149),0px 1px 1px rgb(150, 149, 149),0px -1px 1px rgb(150, 149, 149);
+}
+
+.person-name{
+    font-size: 1.7rem;
+    font-family: 'Dongle', sans-serif;
+}
+
+.person-info-style{
+    color:  rgb(167, 167, 167);
+}
