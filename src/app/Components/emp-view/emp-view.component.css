@@ -6,6 +6,11 @@
     min-height: 100%;
     height: auto;
     width: 100%;
+    
+}
+
+.view-emp-container{
+    padding: 2rem;
 }
 
 .view-heading{
@@ -18,4 +23,85 @@
     font-family: sans-serif;
     font-size: x-large;
     word-spacing: 1rem;
+}
+
+
+.team-member-container {
+    min-height: 20vh;
+    height: auto;
+    width: 100%;
+    display: grid;
+    gap: 50px 20px;
+    grid-template-columns: auto auto auto auto;
+    }
+
+.person {
+    border: var(--div-border);
+    background-color: var(--page-div-background-color);
+    height: 20vh;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.peer-heading{
+    height: 5vh;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: xx-large;
+    padding: 2rem;
+    font-family: var(--dynaPuff);
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    width: 21vw;
+    height: 100%;
+    transition: all 0.3s;
+    box-shadow: none;
+}
+
+.person:hover{
+    box-shadow: 0px -0px 10px 1px rgba(255, 255, 255, 0.164);
+}
+
+.profile-circle-container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.person-details-container{
+    width: 70%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-circle{
+    width: 70%;
+    background-color:   rgb(118, 156, 172);
+    height: 10vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 900;
+    text-shadow: 1px 0px 1px rgb(150, 149, 149),-1px 0px 1px rgb(150, 149, 149),0px 1px 1px rgb(150, 149, 149),0px -1px 1px rgb(150, 149, 149);
+}
+
+.person-name{
+    font-size: 1.7rem;
+    font-family: 'Dongle', sans-serif;
+}
+
+.person-info-style{
+    color:  rgb(167, 167, 167);
 }

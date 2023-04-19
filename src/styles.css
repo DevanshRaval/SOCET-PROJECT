@@ -13,6 +13,10 @@
     font-size: 1rem;
 }
 
+input{
+    color: black;
+}
+
 :root {
     --parent-background-color: #1b2531;
     --link-hover-color: rgb(60, 70, 92);

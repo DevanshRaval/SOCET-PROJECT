@@ -1,8 +1,22 @@
 <div class="parent-container">
-    <div class="view-heading"><p>{{"view employee" | uppercase}}</p></div>
-   <div class="view-form">
-    <form>
-       
-    </form>
-   </div>
+    <div class="view-heading">
+        <p>{{"view employee" | uppercase}}</p>
+    </div>
+    <div class="view-emp-container">
+        <div class="team-member-container">
+            <div class="person" *ngFor="let user of empArray">
+                <div class="profile-circle-container">
+                    <div class="profile-circle">{{getFirstLetter(user.name)}}</div>
+                </div>
+                <div class="person-details-container">
+                    <p class="person-name">{{user.name}}</p>
+                    <p><span class="person-info-style">Location</span> : {{user.location}}</p>
+                    <p><span class="person-info-style">Department</span> : {{user.department}}</p>
+                    <p><span class="person-info-style">Email</span> : {{user.email}}</p>
+                    <p><span class="person-info-style">Mobile</span> : {{user.mobile}}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

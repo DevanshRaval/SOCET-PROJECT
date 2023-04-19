@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EmpDataService } from 'src/app/myService/empData.service';
 
 @Component({
   selector: 'app-emp-view',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmpViewComponent implements OnInit {
 
-  constructor() { }
+  empArray : any = [];
+
+  
+  constructor(private empData : EmpDataService) { 
+    this.empArray  = empData.EMP_DATA_ARRAY;
+  }
 
   ngOnInit(): void {
+  }
+
+  getFirstLetter(name : any){
+    return this.empData.firstLetter(name);
   }
 
 }

@@ -19,6 +19,7 @@ import { EmpAddComponent } from './Components/emp-add/emp-add.component';
 import { EmpDeleteComponent } from './Components/emp-delete/emp-delete.component';
 import { EmpEditComponent } from './Components/emp-edit/emp-edit.component';
 import { EmpViewComponent } from './Components/emp-view/emp-view.component';
+import { EmpDataService } from './myService/empData.service';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,7 @@ import { EmpViewComponent } from './Components/emp-view/emp-view.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [EmpDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

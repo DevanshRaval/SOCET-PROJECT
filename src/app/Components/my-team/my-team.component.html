@@ -36,7 +36,7 @@
     <div class="team-member-container">
         <div class="person" *ngFor="let user of empArray">
             <div class="profile-circle-container">
-                <div class="profile-circle">{{firstLetter(user.name)}}</div>
+                <div class="profile-circle">{{getFirstLetter(user.name)}}</div>
             </div>
             <div class="person-details-container">
                 <p class="person-name">{{user.name}}</p>
