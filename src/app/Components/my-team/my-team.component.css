@@ -30,6 +30,7 @@ div.summary-top {
     border: var(--div-border);
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
 div.summary-bottom {
@@ -180,10 +181,11 @@ div.summary-bottom {
 .person{
     display: flex;
     flex-direction: row;
-    width: 21vw;
-    height: 100%;
+    width: 22vw;
+    height: 24vh;
     transition: all 0.3s;
     box-shadow: none;
+    padding: 1rem;
 }
 
 .person:hover{
@@ -221,10 +223,15 @@ div.summary-bottom {
 }
 
 .person-name{
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-family: 'Dongle', sans-serif;
 }
 
 .person-info-style{
     color:  rgb(167, 167, 167);
+    font-size: 0.8rem;
+}
+
+.person-details-container p:not(.person-name){
+    font-size: 0.8rem;
 }

@@ -1,14 +1,14 @@
 export class EmpDataService{
     EMP_DATA_ARRAY = [
-    {name : 'Devansh Raval', location : 'aaaa', department : 'Ahmedabad' , email : 'a1@gmail.com' , mobile : '9879717455'},
-    {name : 'Dhruvit Shah', location : 'bbbb', department : 'Ahmedabad' , email : 'b2@gmail.com' , mobile : '9879717455'},
-    {name : 'Vanraj Ghed', location : 'cccc', department : 'Ahmedabad' , email : 'c3@gmail.com' , mobile : '9879717455'},
-    {name : 'Vasantkumar  Prajapati', location : 'dddd', department : 'Ahmedabad' , email : 'd4@gmail.com' , mobile : '9879717455'},
-    {name : 'Vinod Pawar', location : 'eeee', department : 'Ahmedabad' , email : 'e5@gmail.com' , mobile : '9879717455'},
-    {name : 'Yogesh Gadhavi', location : 'ffff', department : 'Ahmedabad' , email : 'f6@gmail.com' , mobile : '9879717455'},
-    {name : 'Shrinath Shetty', location : 'gggg', department : 'Ahmedabad' , email : 'g7@gmail.com' , mobile : '9879717455'},
-    {name : 'Sonu Sharma', location : 'hhhh', department : 'Ahmedabad' , email : 'h8@gmail.com' , mobile : '9879717455'},
-    {name : 'Sagar Sahani', location : 'iiii', department : 'Ahmedabad' , email : 'i9@gmail.com' , mobile : '9879717455'},
+    {name : 'Devansh Raval', location : 'Ahmedabad', department : 'Ahmedabad' , email : 'Devansh@gmail.com' , mobile : '9879717455'},
+    {name : 'Dhruvit Shah', location : 'Ahmedabad', department : 'Ahmedabad' , email : 'Dhruvit@gmail.com' , mobile : '9879717455'},
+    {name : 'Vanraj Ghed', location : 'Ahmedabad', department : 'Ahmedabad' , email : 'Vanraj@gmail.com' , mobile : '9879717455'},
+    {name : 'Vasantkumar  Prajapati', location : 'Pune', department : 'Ahmedabad' , email : 'Vasantkumar@gmail.com' , mobile : '9879717455'},
+    {name : 'Vinod Pawar', location : 'Pune', department : 'Ahmedabad' , email : 'Vinod@gmail.com' , mobile : '9879717455'},
+    {name : 'Yogesh Gadhavi', location : 'Ahmedabad', department : 'Ahmedabad' , email : 'Yogesh@gmail.com' , mobile : '9879717455'},
+    {name : 'Shrinath Shetty', location : 'Ahmedabad', department : 'Ahmedabad' , email : 'Shrinath@gmail.com' , mobile : '9879717455'},
+    {name : 'Sonu Sharma', location : 'Pune', department : 'Ahmedabad' , email : 'Sonu@gmail.com' , mobile : '9879717455'},
+    {name : 'Sagar Sahani', location : 'Ahmedabad', department : 'Ahmedabad' , email : 'Sagar@gmail.com' , mobile : '9879717455'},
   ]
 
 
