@@ -59,7 +59,7 @@
 
 .gender {
     display: flex !important;
-    flex-direction: row!important;
+    flex-direction: row !important;
 }
 
 .radio-div input,
@@ -87,29 +87,27 @@
     background-color: var(--button-bg-color)
 }
 
-
-
-/* dsdddddddddddddddddddddddddddd */
-
-.radio-label{
+.radio-label {
     display: flex;
     align-items: center;
     height: 100%;
     padding: none;
-width: 20%;    
-  }
-  .radio-div{
+    width: 20%;
+}
+
+.radio-div {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .radio-div input , .radio-div label{
+.radio-div input,
+.radio-div label {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    margin-top: 0!important;
-  }
+    margin-top: 0 !important;
+}

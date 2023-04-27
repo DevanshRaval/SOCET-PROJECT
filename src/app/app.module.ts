@@ -20,6 +20,7 @@ import { EmpDeleteComponent } from './Components/emp-delete/emp-delete.component
 import { EmpEditComponent } from './Components/emp-edit/emp-edit.component';
 import { EmpViewComponent } from './Components/emp-view/emp-view.component';
 import { EmpDataService } from './myService/empData.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { EmpDataService } from './myService/empData.service';
     AppRoutingModule,
     RouterModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [EmpDataService],
   bootstrap: [AppComponent]
